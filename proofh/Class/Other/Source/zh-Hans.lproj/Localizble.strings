@@ -1,0 +1,47 @@
+/* 
+  Localizble.strings
+  proofh
+
+  Created by 张玉琳 on 2018/3/5.
+  Copyright © 2018年 zyl. All rights reserved.
+*/
+
+login_btn = "登陆";
+register_btn = "注册";
+tip_bangdin = "绑定手机号";
+tip_xiuGaipass = "修改密码";
+
+input_vcode = "请输入手机验证码";
+input_iphoneNum = "请输入手机号";
+
+tip_sureit = "请确认信息输入无误";
+tip_sureitdetails = "是否保存设置";
+tip_baocun = "保存";
+tip_zongZiChan = "总资产(FUC)";
+tip_neterror = "网络错误";
+tip_zhuanChu = "转出";
+tip_zhuanRu = "转入";
+tip_shouKuan = "收款";
+tip_zhuanZhang = "转账";
+tip_saomiao = "扫描二维码，向我付款";
+tip_copy = "复制";
+tip_copyfailed = "复制失败";
+tip_copysuccess = "复制成功";
+tip_user = "账户与安全";
+tip_logOut = "退出登录";
+tip_Modifytheloginpassword = "修改登录密码";
+tip_Loginpasswordmodification = "登录密码修改";
+tip_Modifyingthetransactionpassword = "修改交易密码";
+tip_Transactionpasswordmodification = "交易密码修改";
+tip_Exchangeofmoney = "转出";
+tip_address = "请输入收款钱包地址";
+tip = "请确认转出地址是否正确,如若有误,后果自负!";
+tip_ppass = "请在此输入交易密码";
+tip_sure = "确认";
+tip_time = "时间";
+
+tip_Pass = "输入密码";
+tip_oldPass = "输入旧密码";
+tip_newPass = "输入新密码";
+tip_surenewPass = "确认新密码";
+tip_inputVcodeOrmoilCode = "输入手机验证码或输入邮箱验证码(二选一)";

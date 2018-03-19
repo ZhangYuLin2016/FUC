@@ -1,0 +1,83 @@
+//
+//  PrefixHeader.pch
+//  mywalletpro
+//
+//  Created by 张玉琳 on 2018/3/3.
+//  Copyright © 2018年 zyl. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "POHHttpReq.h"
+#import <MJRefresh.h>
+#import <MBProgressHUD.h>
+
+// ------------------- 尺寸 -------------------
+// 屏幕尺寸
+#define kScreenRect [[UIScreen mainScreen] bounds]
+
+// 屏幕宽度
+#define kScreenWidth kScreenRect.size.width
+
+// 屏幕高度
+#define kScreenHeight kScreenRect.size.height
+
+#define Is_Iphone (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+#define Is_Iphone_X (Is_Iphone && kScreenHeight == 812.0)
+
+
+// 图片
+#define kImageNamed(imageName) [UIImage imageNamed:imageName]
+
+// ------------------- 颜色 -------------------
+
+#define kColor(s) [UIColor colorWithRed:(((s & 0xFF0000) >> 16))/255.0 green:(((s &0xFF00) >>8))/255.0 blue:((s &0xFF))/255.0 alpha:1.0]
+
+#define kBackgroundColor [UIColor colorWithRed:240/255.0 green:244/255.0 blue:246/255.0 alpha:1]
+
+#define kNavColor [UIColor whiteColor]
+#define KWhiteColor  [UIColor whiteColor]
+#define kTbgColor [UIColor colorWithRed:248/255.0 green:250/255.0 blue:252/255.0 alpha:1.0]
+
+#define KBtnColor [UIColor colorWithRed:62/255.0 green:95/255.0 blue:177/255.0 alpha:1.0]
+#define KBtnNoneColor [UIColor colorWithRed:126/255.0 green:126/255.0 blue:126/255.0 alpha:1.0]
+
+// 字体颜色
+#define kTextColor [UIColor colorWithRed:(((0x1F1F1F & 0xFF0000) >> 16))/255.0 green:(((0x1F1F1F &0xFF00) >>8))/255.0 blue:((0x1F1F1F &0xFF))/255.0 alpha:1.0]
+
+
+#define txt(str) NSLocalizedStringFromTable(str, @"Localizble", nil)
+
+//#define txt(str) NSLocalizedString(str,nil)
+
+#define myusername [[NSUserDefaults standardUserDefaults] objectForKey:@"username"]
+
+//---------imageIcon
+
+//首页
+#define homeBgIcon @"homeBgIcon"
+#define setIcon @"setIcon"
+#define scanIcon @"saoMiaoIcon"
+//#define riLi @"trans"
+#define riLi @"transs"
+
+#define scanGrayIcon @"grayscan"
+
+//登陆、注册、修改密码
+#define logoViewIcon @"logo"
+#define iphoneNumIcon @"myphone" //输入手机号码的图片（忘记密码页面）
+#define vCodeIcon @"vcode" //输入验证码的图片（忘记密码页面）
+#define sendVCodeIcon @"sendVCode" //发送验证码的图片
+#define sendVCodeOffIcon @"sendoff" //发送验证码的图片
+//#define passIcon @"vpass" //输入密码的图片（忘记密码页面）
+#define passIcon @"mypass" //输入密码的图片（忘记密码页面）
+
+#define bgviewIcon @"bgIcon"
+
+#define timer_count 59
+
+
+#define kAnmotain NO
+
+#endif /* PrefixHeader_pch */

@@ -1,0 +1,46 @@
+/* 
+  Localizble.strings
+  proofh
+
+  Created by 张玉琳 on 2018/3/5.
+  Copyright © 2018年 zyl. All rights reserved.
+*/
+login_btn = "login";
+register_btn = "register";
+tip_bangdin = "Binding cell phone number";
+tip_xiuGaipass = "Modify the password";
+
+input_vcode = "Input verify code";
+input_moilCode = "Input mailbox verification code";
+input_iphoneNum = "Input iphone Num";
+tip_sureit = "Please sure it";
+tip_sureitdetails = "Whether to save the settings";
+tip_baocun = "sure";
+tip_zongZiChan = "total assets(FUC)";
+tip_neterror = "network error";
+tip_zhuanChu = "Turn out";
+tip_zhuanRu = "Income";
+tip_shouKuan = "Receive";
+tip_zhuanZhang = "Transfer accounts";
+tip_saomiao = "Scan the two dimensional code and pay me";
+tip_copy = "copy";
+tip_copyfailed = "copy failed";
+tip_copysuccess = "copy success";
+tip_user = "Account and security";
+tip_logOut = "Exit logon";
+tip_Modifytheloginpassword = "Modify the login password";
+tip_Loginpasswordmodification = "Login password modification";
+tip_Modifyingthetransactionpassword = "Modifying the transaction password";
+tip_Transactionpasswordmodification = "Transaction password modification";
+tip_Exchangeofmoney="Exchange";
+tip_address = "Input the address of the receivable Wallet";
+tip = "Please confirm whether the transfer address is correct, if it is wrong, the consequences are self negative!";
+tip_ppass = "Input the transaction password";
+tip_sure = "OK";
+tip_time = "Time";
+tip_Pass = "Input the password";
+tip_oldPass = "Input the old password";
+tip_newPass = "Input a new password";
+tip_surenewPass = "Confirm the new password";
+tip_inputVcodeOrmoilCode = "Enter the cell phone verification code or enter the mailbox verification code (two selected one)";
+

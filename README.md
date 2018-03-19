@@ -4,5 +4,11 @@
 登陆注册页面以及忘记密码页面
 
 
-![image]{https://github.com/ZhangYuLin2016/FUC/blob/master/icon/1.png}
+![image](https://github.com/ZhangYuLin2016/FUC/blob/master/icon/1.png)
+
+
+![image](https://github.com/ZhangYuLin2016/FUC/blob/master/icon/3.png)
+
+![image](https://github.com/ZhangYuLin2016/FUC/blob/master/icon/2.png)
+
 
